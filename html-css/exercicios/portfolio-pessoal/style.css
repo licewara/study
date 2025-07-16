@@ -1,7 +1,4 @@
 body {
-  display: flex;
-  justify-content: space-evenly;
-  align-items:center;
   background-color: rgb(37, 37, 37);
 }
 
@@ -14,13 +11,15 @@ h1 {
 }
 
 #esquerda {
-  flex-direction: column;
-  margin-left: auto;
+  position: relative;
+  top: 250px;
+  left: 300px;
 }
 
 #direita {
-  flex-direction: column;
-  margin-right: auto;
+  position: relative;
+  top: -115px;
+  left: 800px;
 }
 
 #fotoalice {
